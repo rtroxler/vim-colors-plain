@@ -69,7 +69,7 @@ if &background == "dark"
 else
   let s:bg              = s:white
   let s:bg_subtle       = s:lighter_gray
-  let s:bg_very_subtle  = s:light_gray
+  let s:bg_very_subtle  = s:lightest_gray
   let s:norm            = s:light_black
   let s:norm_subtle     = s:lighter_black
   let s:purple          = s:dark_purple
@@ -148,7 +148,7 @@ hi! link Debug            Special
 call s:h("Underlined",    {"fg": s:norm, "gui": "underline", "cterm": "underline"})
 call s:h("Ignore",        {"fg": s:bg})
 call s:h("Error",         {"fg": s:red, "bg": s:bg, "cterm": "bold"})
-call s:h("Todo",          {"fg": s:actual_white, "bg": s:red, "gui": "bold", "cterm": "bold"})
+call s:h("Todo",          {"fg": s:red, "bg": s:actual_white, "gui": "bold", "cterm": "bold"})
 call s:h("SpecialKey",    {"fg": s:light_green})
 call s:h("NonText",       {"fg": s:medium_gray})
 call s:h("Directory",     {"fg": s:dark_blue})
