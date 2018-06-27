@@ -111,12 +111,12 @@ hi! link Boolean          Constant
 hi! link Float            Constant
 hi! link String           Constant
 
-call s:h("Identifier",    {"fg": s:black, "gui": "bold"})
-"hi! link Identifier       Normal
+"call s:h("Identifier",    {"fg": s:, "gui": "bold"})
+hi! link Identifier       Normal
 hi! link Function         Identifier
 
 "hi! link Statement        Normal
-call s:h("Statement",     {"fg": s:black, "gui": "bold"})
+call s:h("Statement",     {"fg": s:norm, "gui": "bold"})
 hi! link Conditonal       Statement
 hi! link Repeat           Statement
 hi! link Label            Statement
