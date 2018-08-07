@@ -83,7 +83,7 @@ else
   let s:status_line_nc  = s:light_gray
   let s:constant        = s:dark_blue
   let s:comment         = s:light_gray
-  let s:selection       = s:light_yellow
+  let s:selection       = s:light_blue
   let s:warning         = s:yellow
 endif
 
